@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-22T15:08:45.589647+00:00",
+  "checked_at": "2026-10-22T18:58:54.477545+00:00",
   "periods_checked": [
     1,
     2,
@@ -16,7 +16,6 @@
       "executionDate": null,
       "items": [
         {
-          "acquisitionBudget": 0,
           "fromLineupSlotId": 4,
           "fromTeamId": 3,
           "isKeeper": false,
@@ -27,7 +26,40 @@
           "type": "TRADE"
         },
         {
-          "acquisitionBudget": 0,
+          "fromLineupSlotId": 0,
+          "fromTeamId": 4,
+          "isKeeper": false,
+          "overallPickNumber": 0,
+          "playerId": 3992,
+          "toLineupSlotId": -1,
+          "toTeamId": 3,
+          "type": "TRADE"
+        }
+      ],
+      "teamActions": {
+        "3": "ACCEPTED"
+      }
+    },
+    {
+      "id": "f58a80fe-0007-4057-9673-6f1c0dccf20e",
+      "type": "TRADE_PROPOSAL",
+      "status": "CANCELED",
+      "teamId": 3,
+      "proposedDate": 1792689662639,
+      "expirationDate": 1792689712781,
+      "executionDate": null,
+      "items": [
+        {
+          "fromLineupSlotId": 4,
+          "fromTeamId": 3,
+          "isKeeper": false,
+          "overallPickNumber": 0,
+          "playerId": 4396971,
+          "toLineupSlotId": -1,
+          "toTeamId": 4,
+          "type": "TRADE"
+        },
+        {
           "fromLineupSlotId": 0,
           "fromTeamId": 4,
           "isKeeper": false,
@@ -42,5 +74,6 @@
         "3": "ACCEPTED"
       }
     }
-  ]
+  ],
+  "reconciliation": "Original pending historical record and later CANCELED same-leg record; absent live pending. Treat as canceled/unexecuted, no acceptance. Conservatively reserve two of three rolling proposal slots until event linkage confirmed."
 }

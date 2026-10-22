@@ -158,3 +158,27 @@ Source pattern: `https://site.api.espn.com/apis/fantasy/v3/games/fba/news/player
 IDs: Claxton 4278067, VanVleet 2991230, Dybantsa 5142718, Murray 3936299,
 Vucevic 6478, Edgecombe 5124612. News timestamps above distinguish current
 evidence from older-season injuries. Keep full article text out of the repo.
+
+## October 22 noon reconciliation
+
+An external free-agent add of Keaton Wagler (5254165), transaction
+`92e85bcb-fe6f-45a7-bbdc-e0f653a1b658`, filled the open active roster spot after
+the morning run. Preserve that addition. The unchanged Edgecombe no-drop waiver
+now has a roster-capacity conflict and may fail; no automatic drop or duplicate
+claim was made. Reconcile before processing rather than assume the spot is open.
+
+Murray's waiver and Wagler's add both executed in period 3; the counter reports
+two acquisitions. This contradicts the initial assumption that the settings
+necessarily enforce one acquisition per day. The raw settings remain evidence,
+but the effective limit interpretation requires further investigation. Do not
+attempt to bypass limits or infer a new allowance from this discrepancy.
+
+Reid-for-Harden is absent from live pending transactions. History retains the
+original pending record and a separate same-leg `CANCELED` record dated just
+before expiry. No trade executed. Do not call this accepted or definitely a
+natural expiration, or immediately resend it. Until the event linkage is
+confirmed, conservatively reserve two proposal slots against the rolling cap.
+
+A period-6 lineup write returned HTTP 200 but its first readback was stale.
+A later independent read matched the entire intended roster; no write retry
+was needed. Always resolve uncertain outcomes with reads before resubmitting.

@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-22T15:10:33.322192+00:00",
+  "checked_at": "2026-10-22T18:58:54.001993+00:00",
   "league_id": 1779277586,
   "team_id": 3,
   "season_id": 2027,
@@ -61,7 +61,7 @@
           "id": 5142718,
           "name": "AJ Dybantsa",
           "slot": 11,
-          "injury_status": "DAY_TO_DAY"
+          "injury_status": "OUT"
         },
         {
           "id": 2991230,
@@ -85,6 +85,12 @@
           "id": 3936299,
           "name": "Jamal Murray",
           "slot": 11,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "id": 5254165,
+          "name": "Keaton Wagler",
+          "slot": 12,
           "injury_status": "ACTIVE"
         }
       ],
@@ -148,12 +154,12 @@
           "id": 5142718,
           "name": "AJ Dybantsa",
           "slot": 11,
-          "injury_status": "DAY_TO_DAY"
+          "injury_status": "OUT"
         },
         {
           "id": 2991230,
           "name": "Fred VanVleet",
-          "slot": 11,
+          "slot": 12,
           "injury_status": "ACTIVE"
         },
         {
@@ -173,10 +179,16 @@
           "name": "Jamal Murray",
           "slot": 12,
           "injury_status": "ACTIVE"
+        },
+        {
+          "id": 5254165,
+          "name": "Keaton Wagler",
+          "slot": 11,
+          "injury_status": "ACTIVE"
         }
       ],
       "verified": true,
-      "estimated_points": 346.730033
+      "estimated_points": 354.373941
     },
     {
       "period": 5,
@@ -235,7 +247,7 @@
           "id": 5142718,
           "name": "AJ Dybantsa",
           "slot": 2,
-          "injury_status": "DAY_TO_DAY"
+          "injury_status": "OUT"
         },
         {
           "id": 2991230,
@@ -259,6 +271,12 @@
           "id": 3936299,
           "name": "Jamal Murray",
           "slot": 11,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "id": 5254165,
+          "name": "Keaton Wagler",
+          "slot": 12,
           "injury_status": "ACTIVE"
         }
       ],
@@ -297,7 +315,7 @@
         {
           "id": 4396971,
           "name": "Naz Reid",
-          "slot": 11,
+          "slot": 4,
           "injury_status": "ACTIVE"
         },
         {
@@ -322,7 +340,7 @@
           "id": 5142718,
           "name": "AJ Dybantsa",
           "slot": 12,
-          "injury_status": "DAY_TO_DAY"
+          "injury_status": "OUT"
         },
         {
           "id": 2991230,
@@ -347,10 +365,16 @@
           "name": "Jamal Murray",
           "slot": 12,
           "injury_status": "ACTIVE"
+        },
+        {
+          "id": 5254165,
+          "name": "Keaton Wagler",
+          "slot": 11,
+          "injury_status": "ACTIVE"
         }
       ],
       "verified": true,
-      "estimated_points": 159.328446
+      "estimated_points": 183.685589
     },
     {
       "period": 7,
@@ -409,7 +433,7 @@
           "id": 5142718,
           "name": "AJ Dybantsa",
           "slot": 11,
-          "injury_status": "DAY_TO_DAY"
+          "injury_status": "OUT"
         },
         {
           "id": 2991230,
@@ -433,6 +457,12 @@
           "id": 3936299,
           "name": "Jamal Murray",
           "slot": 11,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "id": 5254165,
+          "name": "Keaton Wagler",
+          "slot": 12,
           "injury_status": "ACTIVE"
         }
       ],
@@ -496,7 +526,7 @@
           "id": 5142718,
           "name": "AJ Dybantsa",
           "slot": 11,
-          "injury_status": "DAY_TO_DAY"
+          "injury_status": "OUT"
         },
         {
           "id": 2991230,
@@ -519,6 +549,12 @@
         {
           "id": 3936299,
           "name": "Jamal Murray",
+          "slot": 12,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "id": 5254165,
+          "name": "Keaton Wagler",
           "slot": 12,
           "injury_status": "ACTIVE"
         }
@@ -583,7 +619,7 @@
           "id": 5142718,
           "name": "AJ Dybantsa",
           "slot": 11,
-          "injury_status": "DAY_TO_DAY"
+          "injury_status": "OUT"
         },
         {
           "id": 2991230,
@@ -608,6 +644,12 @@
           "name": "Jamal Murray",
           "slot": 11,
           "injury_status": "ACTIVE"
+        },
+        {
+          "id": 5254165,
+          "name": "Keaton Wagler",
+          "slot": 12,
+          "injury_status": "ACTIVE"
         }
       ],
       "verified": true,
@@ -620,9 +662,9 @@
     "Claxton": "OUT hamstring; current-day IR verified"
   },
   "next_checks": [
-    "Reid-for-Harden offer expires October 22 10:21 PDT; preserve full response window",
-    "Dybantsa ankle and VanVleet back-to-back rest designation before October 23 13:00 PDT first game",
-    "Today earliest game 16:00 PDT; check before lock",
-    "Edgecombe no-drop waiver pending for October 23 00:00 PDT; verify result and reoptimize all affected dates. Today acquisition used by Murray."
+    "Edgecombe no-drop claim pending for Oct23 00:00 PDT but Wagler external add filled roster; preserve Wagler and reconcile before processing, no automatic drop",
+    "Dybantsa ankle and VanVleet Friday/Saturday rest leg remain unresolved; recheck before Oct23 games",
+    "Today earliest game 16:00 PDT; Murray and LeBron active",
+    "Reid-Harden offer absent from pending; cancellation record observed, do not duplicate"
   ]
 }

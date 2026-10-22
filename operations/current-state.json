@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-22T19:01:37.962670+00:00",
+  "checked_at": "2026-10-22T21:57:15.789405+00:00",
   "league_id": 1779277586,
   "team_id": 3,
   "season_id": 2027,
@@ -7,7 +7,7 @@
     {
       "period": 3,
       "date": "2026-10-22",
-      "earliest_game": "2026-10-22T16:00:00-07:00",
+      "earliest_game": "2026-10-22T23:00:00+00:00",
       "roster": [
         {
           "id": 1966,
@@ -100,7 +100,7 @@
     {
       "period": 4,
       "date": "2026-10-23",
-      "earliest_game": "2026-10-23T13:00:00-07:00",
+      "earliest_game": "2026-10-23T20:00:00+00:00",
       "roster": [
         {
           "id": 1966,
@@ -153,13 +153,13 @@
         {
           "id": 5142718,
           "name": "AJ Dybantsa",
-          "slot": 11,
+          "slot": 12,
           "injury_status": "OUT"
         },
         {
           "id": 2991230,
           "name": "Fred VanVleet",
-          "slot": 12,
+          "slot": 11,
           "injury_status": "ACTIVE"
         },
         {
@@ -188,12 +188,12 @@
         }
       ],
       "verified": true,
-      "estimated_points": 354.373941
+      "estimated_points": 346.399676
     },
     {
       "period": 5,
       "date": "2026-10-24",
-      "earliest_game": "2026-10-24T15:00:00-07:00",
+      "earliest_game": "2026-10-24T22:00:00+00:00",
       "roster": [
         {
           "id": 1966,
@@ -286,7 +286,7 @@
     {
       "period": 6,
       "date": "2026-10-25",
-      "earliest_game": "2026-10-25T14:00:00-07:00",
+      "earliest_game": "2026-10-25T21:00:00+00:00",
       "roster": [
         {
           "id": 1966,
@@ -379,7 +379,7 @@
     {
       "period": 7,
       "date": "2026-10-26",
-      "earliest_game": "2026-10-26T16:00:00-07:00",
+      "earliest_game": "2026-10-26T23:00:00+00:00",
       "roster": [
         {
           "id": 1966,
@@ -472,7 +472,7 @@
     {
       "period": 8,
       "date": "2026-10-27",
-      "earliest_game": "2026-10-27T16:30:00-07:00",
+      "earliest_game": "2026-10-27T23:30:00+00:00",
       "roster": [
         {
           "id": 1966,
@@ -565,7 +565,7 @@
     {
       "period": 9,
       "date": "2026-10-28",
-      "earliest_game": "2026-10-28T16:00:00-07:00",
+      "earliest_game": "2026-10-28T23:00:00+00:00",
       "roster": [
         {
           "id": 1966,
@@ -657,14 +657,13 @@
     }
   ],
   "assumptions": {
-    "Dybantsa": "Live OUT flag at claim review; latest article still Oct20 day-to-day ankle, no Friday-specific clearance/absence. Recheck before next game; do not treat provisional75% as medical probability.",
+    "Dybantsa": "Confirmed OUT Friday Oct23;0 expected points Friday. Coach still day-to-day, possible Saturday return;75% future availability remains provisional modeling only.",
     "VanVleet": "One back-to-back leg rest; provisional 50% per leg until confirmed",
     "Claxton": "OUT hamstring; current-day IR verified"
   },
   "next_checks": [
-    "Evening decision: Edgecombe no-drop claim faces full roster; preserve Wagler. No clearly justified alternative drop. Recommend cancel before midnight processing if no slot opens or material news changes comparison. ANALYZE validation unavailable409.",
-    "Dybantsa ankle and VanVleet Friday/Saturday rest leg remain unresolved; recheck before Oct23 games",
-    "Today earliest game 16:00 PDT; Murray and LeBron active",
-    "Reid-Harden offer absent from pending; cancellation record observed, do not duplicate"
+    "Evening: cancel Edgecombe no-drop claim if roster still full and no justified alternative drop; preserve Wagler",
+    "Before Friday games verify VanVleet rest leg; before Saturday check Dybantsa return",
+    "Today LeBron and Murray active; earliest league game16:00 PDT"
   ]
 }

@@ -16,3 +16,11 @@ Read team identifiers from `espn.config.json`. Authenticate using `ESPN_S2` and
 Treat LeBron James, Stephen Curry, Kevin Durant, and Kawhi Leonard as
 untouchable. Do not trade, drop, waive, or otherwise remove any of these
 players from the team without explicit user approval for that action.
+
+# Daily lineup edits
+
+Before lineup changes, read `docs/lineup-editing.md`. Future scoring periods
+require `FUTURE_ROSTER`, not `ROSTER`. Use a fresh target-date snapshot, check
+locks and game timing, and verify every change by readback. For reversible
+tests, restore and independently compare all original roster slots. Never log
+transaction payloads containing `memberId` (SWID).

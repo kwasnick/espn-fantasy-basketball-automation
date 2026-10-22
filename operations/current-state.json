@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-22T18:58:54.001993+00:00",
+  "checked_at": "2026-10-22T19:01:37.962670+00:00",
   "league_id": 1779277586,
   "team_id": 3,
   "season_id": 2027,
@@ -657,12 +657,12 @@
     }
   ],
   "assumptions": {
-    "Dybantsa": "Day-to-day ankle; provisional 75% availability, recheck",
+    "Dybantsa": "Live OUT flag at claim review; latest article still Oct20 day-to-day ankle, no Friday-specific clearance/absence. Recheck before next game; do not treat provisional75% as medical probability.",
     "VanVleet": "One back-to-back leg rest; provisional 50% per leg until confirmed",
     "Claxton": "OUT hamstring; current-day IR verified"
   },
   "next_checks": [
-    "Edgecombe no-drop claim pending for Oct23 00:00 PDT but Wagler external add filled roster; preserve Wagler and reconcile before processing, no automatic drop",
+    "Evening decision: Edgecombe no-drop claim faces full roster; preserve Wagler. No clearly justified alternative drop. Recommend cancel before midnight processing if no slot opens or material news changes comparison. ANALYZE validation unavailable409.",
     "Dybantsa ankle and VanVleet Friday/Saturday rest leg remain unresolved; recheck before Oct23 games",
     "Today earliest game 16:00 PDT; Murray and LeBron active",
     "Reid-Harden offer absent from pending; cancellation record observed, do not duplicate"

@@ -11,7 +11,8 @@ def build_lineup_payload(league, team_id, moves, member_id):
     """Use a fresh mRoster/mSettings response for the requested scoring period.
 
     moves maps player IDs to destination slot IDs. This conservative helper
-    refuses protected players, locks, pending transactions and past periods.
+    refuses locks, pending transactions and past periods. Protected players
+    may change lineup slots; protection applies to roster removal, not lineup.
     Caller must separately verify game timing and snapshot/read back changes.
     """
     period = league['scoringPeriodId']
@@ -28,14 +29,14 @@ def build_lineup_payload(league, team_id, moves, member_id):
         raise ValueError('No moves supplied')
     items = []
     for player_id, destination in moves.items():
-        if player_id in PROTECTED_PLAYERS:
-            raise ValueError('Protected player: stop for explicit user approval')
         entry = entries[player_id]
         pool = entry['playerPoolEntry']
         if pool.get('lineupLocked') is not False or entry.get('pendingTransactionIds'):
             raise ValueError('Player locked, lock unknown, or transaction pending')
         if destination not in pool['player']['eligibleSlots']:
             raise ValueError('Ineligible destination')
+        if destination == 13 and pool['player'].get('injuryStatus') != 'OUT':
+            raise ValueError('IR move requires confirmed OUT status')
         if destination == entry['lineupSlotId']:
             raise ValueError('Move does not change slot')
         items.append({'playerId': player_id, 'type': 'LINEUP',

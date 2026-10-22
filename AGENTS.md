@@ -24,3 +24,12 @@ require `FUTURE_ROSTER`, not `ROSTER`. Use a fresh target-date snapshot, check
 locks and game timing, and verify every change by readback. For reversible
 tests, restore and independently compare all original roster slots. Never log
 transaction payloads containing `memberId` (SWID).
+
+# Co-manager runs
+
+Read `docs/co-manager.md` and the operational logs before acting. Standing
+authorization permits lineup placement of all players, including the four
+protected stars; their roster-removal protection remains unchanged. Acquire
+the run guard, preserve concurrent user moves, honor the rolling three-offer
+limit and 48-hour response window, and log/verify every write. Only the scheduled
+9 p.m. Pacific run sends the routine daily summary. No real-money fees.

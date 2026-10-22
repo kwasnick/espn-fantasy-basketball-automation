@@ -1,0 +1,73 @@
+{
+  "updated_at": "2026-10-22T06:13:16.185904+00:00",
+  "pending": [
+    {
+      "id": "319cf2cc-b1c2-47fc-aae2-602df7122caa",
+      "type": "TRADE_PROPOSAL",
+      "status": "PENDING",
+      "teamId": 3,
+      "proposedDate": 1792516912759,
+      "expirationDate": 1792689712781,
+      "items": [
+        {
+          "acquisitionBudget": 0,
+          "fromLineupSlotId": 4,
+          "fromTeamId": 3,
+          "isKeeper": false,
+          "overallPickNumber": 0,
+          "playerId": 4396971,
+          "toLineupSlotId": -1,
+          "toTeamId": 4,
+          "type": "TRADE"
+        },
+        {
+          "acquisitionBudget": 0,
+          "fromLineupSlotId": 0,
+          "fromTeamId": 4,
+          "isKeeper": false,
+          "overallPickNumber": 0,
+          "playerId": 3992,
+          "toLineupSlotId": -1,
+          "toTeamId": 3,
+          "type": "TRADE"
+        }
+      ],
+      "teamActions": {
+        "3": "ACCEPTED"
+      }
+    },
+    {
+      "id": "d6abe826-2dd0-43bb-95f3-2063466bec68",
+      "type": "WAIVER",
+      "status": "PENDING",
+      "teamId": 3,
+      "proposedDate": 1792649595669,
+      "expirationDate": null,
+      "items": [
+        {
+          "acquisitionBudget": 0,
+          "fromLineupSlotId": -1,
+          "fromTeamId": 0,
+          "isKeeper": false,
+          "overallPickNumber": 0,
+          "playerId": 3936299,
+          "toLineupSlotId": -1,
+          "toTeamId": 3,
+          "type": "ADD"
+        },
+        {
+          "acquisitionBudget": 0,
+          "fromLineupSlotId": 4,
+          "fromTeamId": 3,
+          "isKeeper": false,
+          "overallPickNumber": 0,
+          "playerId": 6478,
+          "toLineupSlotId": -1,
+          "toTeamId": 0,
+          "type": "DROP"
+        }
+      ],
+      "teamActions": null
+    }
+  ]
+}

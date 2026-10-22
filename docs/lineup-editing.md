@@ -112,3 +112,14 @@ that every season, league type, or arbitrarily distant future date was tested.
 
 Run local regression tests (no network or mutations):
 ` .venv/bin/python -m unittest discover -s tests -v`.
+
+## Subsequent operating findings
+
+The co-manager authorization permits lineup placement of protected stars;
+protection still forbids their trade/drop/removal without direct approval.
+During the initial weekly optimization, period-7 active/bench changes also
+appeared on periods 8 and 9. Recompute chronologically from fresh snapshots and
+verify every date afterward; an inverse test can hide intermediate propagation.
+Future-period IR placement returned HTTP 409 and remained unchanged. Do not
+assume that the verified ordinary active/bench workflow establishes IR support.
+See `docs/co-manager.md` for the observed limitations and next checks.

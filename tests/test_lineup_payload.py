@@ -40,8 +40,9 @@ class PayloadTests(unittest.TestCase):
         self.league['teams'][0]['roster']['entries'][0]['playerPoolEntry']['lineupLocked'] = True
         with self.assertRaises(ValueError): self.build()
 
-    def test_protected_refused(self):
-        with self.assertRaises(ValueError): self.build({1966: 12})
+    def test_protected_lineup_placement_allowed(self):
+        self.league['teams'][0]['roster']['entries'][0]['playerId'] = 1966
+        self.assertEqual(self.build({1966: 12})['items'][0]['playerId'], 1966)
 
     def test_ineligible_refused(self):
         with self.assertRaises(ValueError): self.build({5041935: 4})

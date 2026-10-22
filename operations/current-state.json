@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-22T06:17:28.610631+00:00",
+  "checked_at": "2026-10-22T15:10:33.322192+00:00",
   "league_id": 1779277586,
   "team_id": 3,
   "season_id": 2027,
@@ -66,19 +66,13 @@
         {
           "id": 2991230,
           "name": "Fred VanVleet",
-          "slot": 11,
-          "injury_status": "ACTIVE"
-        },
-        {
-          "id": 6478,
-          "name": "Nikola Vucevic",
           "slot": 12,
           "injury_status": "ACTIVE"
         },
         {
           "id": 4278067,
           "name": "Nic Claxton",
-          "slot": 12,
+          "slot": 13,
           "injury_status": "OUT"
         },
         {
@@ -86,9 +80,16 @@
           "name": "Myles Turner",
           "slot": 12,
           "injury_status": "ACTIVE"
+        },
+        {
+          "id": 3936299,
+          "name": "Jamal Murray",
+          "slot": 11,
+          "injury_status": "ACTIVE"
         }
       ],
-      "verified": true
+      "verified": true,
+      "estimated_points": 86.411911
     },
     {
       "period": 4,
@@ -152,19 +153,13 @@
         {
           "id": 2991230,
           "name": "Fred VanVleet",
-          "slot": 12,
-          "injury_status": "ACTIVE"
-        },
-        {
-          "id": 6478,
-          "name": "Nikola Vucevic",
           "slot": 11,
           "injury_status": "ACTIVE"
         },
         {
           "id": 4278067,
           "name": "Nic Claxton",
-          "slot": 12,
+          "slot": 13,
           "injury_status": "OUT"
         },
         {
@@ -172,9 +167,16 @@
           "name": "Myles Turner",
           "slot": 4,
           "injury_status": "ACTIVE"
+        },
+        {
+          "id": 3936299,
+          "name": "Jamal Murray",
+          "slot": 12,
+          "injury_status": "ACTIVE"
         }
       ],
-      "verified": true
+      "verified": true,
+      "estimated_points": 346.730033
     },
     {
       "period": 5,
@@ -242,15 +244,9 @@
           "injury_status": "ACTIVE"
         },
         {
-          "id": 6478,
-          "name": "Nikola Vucevic",
-          "slot": 12,
-          "injury_status": "ACTIVE"
-        },
-        {
           "id": 4278067,
           "name": "Nic Claxton",
-          "slot": 11,
+          "slot": 13,
           "injury_status": "OUT"
         },
         {
@@ -258,9 +254,16 @@
           "name": "Myles Turner",
           "slot": 4,
           "injury_status": "ACTIVE"
+        },
+        {
+          "id": 3936299,
+          "name": "Jamal Murray",
+          "slot": 11,
+          "injury_status": "ACTIVE"
         }
       ],
-      "verified": true
+      "verified": true,
+      "estimated_points": 277.682488
     },
     {
       "period": 6,
@@ -328,15 +331,9 @@
           "injury_status": "ACTIVE"
         },
         {
-          "id": 6478,
-          "name": "Nikola Vucevic",
-          "slot": 4,
-          "injury_status": "ACTIVE"
-        },
-        {
           "id": 4278067,
           "name": "Nic Claxton",
-          "slot": 12,
+          "slot": 13,
           "injury_status": "OUT"
         },
         {
@@ -344,9 +341,16 @@
           "name": "Myles Turner",
           "slot": 12,
           "injury_status": "ACTIVE"
+        },
+        {
+          "id": 3936299,
+          "name": "Jamal Murray",
+          "slot": 12,
+          "injury_status": "ACTIVE"
         }
       ],
-      "verified": true
+      "verified": true,
+      "estimated_points": 159.328446
     },
     {
       "period": 7,
@@ -362,13 +366,13 @@
         {
           "id": 6450,
           "name": "Kawhi Leonard",
-          "slot": 2,
+          "slot": 12,
           "injury_status": "ACTIVE"
         },
         {
           "id": 3202,
           "name": "Kevin Durant",
-          "slot": 11,
+          "slot": 2,
           "injury_status": "ACTIVE"
         },
         {
@@ -414,15 +418,9 @@
           "injury_status": "ACTIVE"
         },
         {
-          "id": 6478,
-          "name": "Nikola Vucevic",
-          "slot": 12,
-          "injury_status": "ACTIVE"
-        },
-        {
           "id": 4278067,
           "name": "Nic Claxton",
-          "slot": 12,
+          "slot": 13,
           "injury_status": "OUT"
         },
         {
@@ -430,9 +428,16 @@
           "name": "Myles Turner",
           "slot": 4,
           "injury_status": "ACTIVE"
+        },
+        {
+          "id": 3936299,
+          "name": "Jamal Murray",
+          "slot": 11,
+          "injury_status": "ACTIVE"
         }
       ],
-      "verified": true
+      "verified": true,
+      "estimated_points": 323.009388
     },
     {
       "period": 8,
@@ -500,15 +505,9 @@
           "injury_status": "ACTIVE"
         },
         {
-          "id": 6478,
-          "name": "Nikola Vucevic",
-          "slot": 12,
-          "injury_status": "ACTIVE"
-        },
-        {
           "id": 4278067,
           "name": "Nic Claxton",
-          "slot": 12,
+          "slot": 13,
           "injury_status": "OUT"
         },
         {
@@ -516,9 +515,16 @@
           "name": "Myles Turner",
           "slot": 4,
           "injury_status": "ACTIVE"
+        },
+        {
+          "id": 3936299,
+          "name": "Jamal Murray",
+          "slot": 12,
+          "injury_status": "ACTIVE"
         }
       ],
-      "verified": true
+      "verified": true,
+      "estimated_points": 38.615385
     },
     {
       "period": 9,
@@ -586,15 +592,9 @@
           "injury_status": "ACTIVE"
         },
         {
-          "id": 6478,
-          "name": "Nikola Vucevic",
-          "slot": 11,
-          "injury_status": "ACTIVE"
-        },
-        {
           "id": 4278067,
           "name": "Nic Claxton",
-          "slot": 12,
+          "slot": 13,
           "injury_status": "OUT"
         },
         {
@@ -602,21 +602,27 @@
           "name": "Myles Turner",
           "slot": 4,
           "injury_status": "ACTIVE"
+        },
+        {
+          "id": 3936299,
+          "name": "Jamal Murray",
+          "slot": 11,
+          "injury_status": "ACTIVE"
         }
       ],
-      "verified": true
+      "verified": true,
+      "estimated_points": 376.906462
     }
   ],
   "assumptions": {
     "Dybantsa": "Day-to-day ankle; provisional 75% availability, recheck",
     "VanVleet": "One back-to-back leg rest; provisional 50% per leg until confirmed",
-    "Claxton": "OUT for at least two weeks; IR move not established"
+    "Claxton": "OUT hamstring; current-day IR verified"
   },
   "next_checks": [
-    "Murray waiver processing October 22 00:00 PDT; check result at 08:00 PDT and re-optimize if acquired",
-    "Reid-for-Harden offer expires October 22 10:21 PDT; no early revocation",
-    "Recheck Claxton IR on unlocked current date",
-    "Dybantsa ankle and VanVleet rest before October 23/24 games",
-    "Add October 24 14:15 PDT and October 25 13:15 PDT pregame checks"
+    "Reid-for-Harden offer expires October 22 10:21 PDT; preserve full response window",
+    "Dybantsa ankle and VanVleet back-to-back rest designation before October 23 13:00 PDT first game",
+    "Today earliest game 16:00 PDT; check before lock",
+    "Edgecombe no-drop waiver pending for October 23 00:00 PDT; verify result and reoptimize all affected dates. Today acquisition used by Murray."
   ]
 }

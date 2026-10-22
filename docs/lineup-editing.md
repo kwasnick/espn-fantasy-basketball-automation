@@ -123,3 +123,18 @@ verify every date afterward; an inverse test can hide intermediate propagation.
 Future-period IR placement returned HTTP 409 and remained unchanged. Do not
 assume that the verified ordinary active/bench workflow establishes IR support.
 See `docs/co-manager.md` for the observed limitations and next checks.
+
+## Current-day IR confirmed October 22 morning
+
+When `latestScoringPeriod` advanced to 3, Claxton remained OUT, lineup unlocked,
+IR eligible, and the IR slot was empty. This materially new current-day state
+supported one corrected `ROSTER` attempt (rather than the failed future-day
+operation). HTTP 200 and complete roster readback verified Bench → IR, alongside
+Murray → Utility and VanVleet → Bench. IR placement propagated through periods
+4–9 and was independently verified. This establishes the current-day method;
+it does not establish future-day IR execution. Operational evidence is in the
+`morning-2026-10-22` records in `operations/events.jsonl`.
+
+Fetch `mPendingTransactions` and `mTransactions2` in separate dedicated GETs.
+A combined roster/settings/transaction-view request in this run omitted the
+transaction keys; absence there must not be interpreted as no pending offers.

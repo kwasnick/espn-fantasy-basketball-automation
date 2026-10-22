@@ -1,8 +1,9 @@
 {
-  "checked_at": "2026-10-22T06:13:38.721392+00:00",
+  "checked_at": "2026-10-22T15:08:45.589647+00:00",
   "periods_checked": [
     1,
-    2
+    2,
+    3
   ],
   "transactions": [
     {
@@ -15,6 +16,7 @@
       "executionDate": null,
       "items": [
         {
+          "acquisitionBudget": 0,
           "fromLineupSlotId": 4,
           "fromTeamId": 3,
           "isKeeper": false,
@@ -25,6 +27,7 @@
           "type": "TRADE"
         },
         {
+          "acquisitionBudget": 0,
           "fromLineupSlotId": 0,
           "fromTeamId": 4,
           "isKeeper": false,

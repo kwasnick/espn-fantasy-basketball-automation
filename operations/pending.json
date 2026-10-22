@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T06:13:16.185904+00:00",
+  "updated_at": "2026-10-22T15:09:48.420070+00:00",
   "pending": [
     {
       "id": "319cf2cc-b1c2-47fc-aae2-602df7122caa",
@@ -37,11 +37,11 @@
       }
     },
     {
-      "id": "d6abe826-2dd0-43bb-95f3-2063466bec68",
+      "id": "3ee95fdc-261e-4857-8ef7-7792e5672912",
       "type": "WAIVER",
       "status": "PENDING",
       "teamId": 3,
-      "proposedDate": 1792649595669,
+      "proposedDate": 1792681787925,
       "expirationDate": null,
       "items": [
         {
@@ -50,21 +50,10 @@
           "fromTeamId": 0,
           "isKeeper": false,
           "overallPickNumber": 0,
-          "playerId": 3936299,
+          "playerId": 5124612,
           "toLineupSlotId": -1,
           "toTeamId": 3,
           "type": "ADD"
-        },
-        {
-          "acquisitionBudget": 0,
-          "fromLineupSlotId": 4,
-          "fromTeamId": 3,
-          "isKeeper": false,
-          "overallPickNumber": 0,
-          "playerId": 6478,
-          "toLineupSlotId": -1,
-          "toTeamId": 0,
-          "type": "DROP"
         }
       ],
       "teamActions": null

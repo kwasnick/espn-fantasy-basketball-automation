@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-23T00:56:47.255743+00:00",
+  "checked_at": "2026-10-23T03:58:23.845665+00:00",
   "league_id": 1779277586,
   "team_id": 3,
   "season_id": 2027,
@@ -662,8 +662,7 @@
     "Claxton": "OUT hamstring; current-day IR verified"
   },
   "next_checks": [
-    "Evening: cancel Edgecombe no-drop claim if roster still full and no justified alternative drop; preserve Wagler",
-    "Before Friday games verify VanVleet rest leg; before Saturday check Dybantsa return",
-    "Today LeBron and Murray active; earliest league game16:00 PDT"
+    "Before Friday games verify VanVleet rest leg; Dybantsa out Friday, recheck Saturday",
+    "Edgecombe claim canceled; monitor future opportunities while preserving Wagler"
   ]
 }

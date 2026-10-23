@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-23T19:05:36.879584+00:00",
+  "checked_at": "2026-10-23T22:02:04.046078+00:00",
   "league_id": 1779277586,
   "team_id": 3,
   "season_id": 2027,
@@ -13,7 +13,7 @@
           "id": 1966,
           "name": "LeBron James",
           "slot": 12,
-          "injury_status": "ACTIVE"
+          "injury_status": "DAY_TO_DAY"
         },
         {
           "id": 6450,
@@ -106,7 +106,7 @@
           "id": 1966,
           "name": "LeBron James",
           "slot": 6,
-          "injury_status": "ACTIVE"
+          "injury_status": "DAY_TO_DAY"
         },
         {
           "id": 6450,
@@ -188,7 +188,7 @@
         }
       ],
       "verified": true,
-      "estimated_points": 277.682488
+      "estimated_points": 267.061394
     },
     {
       "period": 6,
@@ -199,7 +199,7 @@
           "id": 1966,
           "name": "LeBron James",
           "slot": 3,
-          "injury_status": "ACTIVE"
+          "injury_status": "DAY_TO_DAY"
         },
         {
           "id": 6450,
@@ -292,7 +292,7 @@
           "id": 1966,
           "name": "LeBron James",
           "slot": 3,
-          "injury_status": "ACTIVE"
+          "injury_status": "DAY_TO_DAY"
         },
         {
           "id": 6450,
@@ -385,7 +385,7 @@
           "id": 1966,
           "name": "LeBron James",
           "slot": 3,
-          "injury_status": "ACTIVE"
+          "injury_status": "DAY_TO_DAY"
         },
         {
           "id": 6450,
@@ -478,7 +478,7 @@
           "id": 1966,
           "name": "LeBron James",
           "slot": 3,
-          "injury_status": "ACTIVE"
+          "injury_status": "DAY_TO_DAY"
         },
         {
           "id": 6450,
@@ -571,7 +571,7 @@
           "id": 1966,
           "name": "LeBron James",
           "slot": 3,
-          "injury_status": "ACTIVE"
+          "injury_status": "DAY_TO_DAY"
         },
         {
           "id": 6450,
@@ -659,12 +659,14 @@
   "assumptions": {
     "Dybantsa": "Confirmed OUT Friday Oct23;0 expected points Friday. Coach still day-to-day, possible Saturday return;75% future availability remains provisional modeling only.",
     "VanVleet": "One back-to-back leg rest; provisional 50% per leg until confirmed",
-    "Claxton": "OUT hamstring; current-day IR verified"
+    "Claxton": "OUT hamstring; current-day IR verified",
+    "LeBron": "Questionable Saturday Oct24 back soreness per Oct23 ESPN report; provisional75% availability model for Saturday, not reported probability. Retain active slot pending clearance; no healthy playing bench alternative."
   },
   "next_checks": [
-    "Today earliest game13:00 PDT; starters verified at noon",
+    "Early games underway; locked Turner and Claxton placements preserved; remaining starters verified",
     "VanVleet ACTIVE but rest leg unspecified; recheck before Houston game",
     "Dybantsa OUT today; Saturday return unresolved",
-    "No pending claims or offers; Edgecombe on team8"
+    "No pending claims or offers; Edgecombe on team8",
+    "LeBron back: recheck Saturday status before tipoff; protected player remains rostered"
   ]
 }

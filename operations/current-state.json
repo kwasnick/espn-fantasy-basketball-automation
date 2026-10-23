@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-23T15:02:31.097535+00:00",
+  "checked_at": "2026-10-23T19:05:36.879584+00:00",
   "league_id": 1779277586,
   "team_id": 3,
   "season_id": 2027,
@@ -662,9 +662,9 @@
     "Claxton": "OUT hamstring; current-day IR verified"
   },
   "next_checks": [
-    "Today first game13:00 PDT; noon recheck before locks",
-    "VanVleet back-to-back rest leg remains unconfirmed; inspect before Houston tipoff",
-    "Dybantsa OUT Friday, Saturday return unresolved",
-    "Edgecombe claim canceled yesterday; no new duplicate or pending claim"
+    "Today earliest game13:00 PDT; starters verified at noon",
+    "VanVleet ACTIVE but rest leg unspecified; recheck before Houston game",
+    "Dybantsa OUT today; Saturday return unresolved",
+    "No pending claims or offers; Edgecombe on team8"
   ]
 }

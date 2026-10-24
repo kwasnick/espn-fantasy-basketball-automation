@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-23T22:02:04.046078+00:00",
+  "checked_at": "2026-10-24T00:56:32.428348+00:00",
   "league_id": 1779277586,
   "team_id": 3,
   "season_id": 2027,
@@ -663,10 +663,10 @@
     "LeBron": "Questionable Saturday Oct24 back soreness per Oct23 ESPN report; provisional75% availability model for Saturday, not reported probability. Retain active slot pending clearance; no healthy playing bench alternative."
   },
   "next_checks": [
-    "Early games underway; locked Turner and Claxton placements preserved; remaining starters verified",
+    "Locked starters preserved; remaining late starters verified",
     "VanVleet ACTIVE but rest leg unspecified; recheck before Houston game",
     "Dybantsa OUT today; Saturday return unresolved",
-    "No pending claims or offers; Edgecombe on team8",
-    "LeBron back: recheck Saturday status before tipoff; protected player remains rostered"
+    "LeBron questionable Saturday with back designation; recheck before game",
+    "No pending claims or offers; Edgecombe on team8"
   ]
 }

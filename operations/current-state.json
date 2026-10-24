@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-24T15:07:31.482994+00:00",
+  "checked_at": "2026-10-24T18:57:43.540170+00:00",
   "league_id": 1779277586,
   "team_id": 3,
   "season_id": 2027,
@@ -13,7 +13,7 @@
           "id": 1966,
           "name": "LeBron James",
           "slot": 6,
-          "injury_status": "DAY_TO_DAY"
+          "injury_status": "OUT"
         },
         {
           "id": 6450,
@@ -61,13 +61,13 @@
           "id": 5142718,
           "name": "AJ Dybantsa",
           "slot": 2,
-          "injury_status": "DAY_TO_DAY"
+          "injury_status": "OUT"
         },
         {
           "id": 2991230,
           "name": "Fred VanVleet",
           "slot": 1,
-          "injury_status": "DAY_TO_DAY"
+          "injury_status": "OUT"
         },
         {
           "id": 4278067,
@@ -95,7 +95,7 @@
         }
       ],
       "verified": true,
-      "estimated_points": 234.777303
+      "estimated_points": 161.513287
     },
     {
       "period": 6,
@@ -106,7 +106,7 @@
           "id": 1966,
           "name": "LeBron James",
           "slot": 3,
-          "injury_status": "DAY_TO_DAY"
+          "injury_status": "OUT"
         },
         {
           "id": 6450,
@@ -154,13 +154,13 @@
           "id": 5142718,
           "name": "AJ Dybantsa",
           "slot": 12,
-          "injury_status": "DAY_TO_DAY"
+          "injury_status": "OUT"
         },
         {
           "id": 2991230,
           "name": "Fred VanVleet",
           "slot": 1,
-          "injury_status": "DAY_TO_DAY"
+          "injury_status": "OUT"
         },
         {
           "id": 4278067,
@@ -199,7 +199,7 @@
           "id": 1966,
           "name": "LeBron James",
           "slot": 3,
-          "injury_status": "DAY_TO_DAY"
+          "injury_status": "OUT"
         },
         {
           "id": 6450,
@@ -247,13 +247,13 @@
           "id": 5142718,
           "name": "AJ Dybantsa",
           "slot": 11,
-          "injury_status": "DAY_TO_DAY"
+          "injury_status": "OUT"
         },
         {
           "id": 2991230,
           "name": "Fred VanVleet",
           "slot": 1,
-          "injury_status": "DAY_TO_DAY"
+          "injury_status": "OUT"
         },
         {
           "id": 4278067,
@@ -292,7 +292,7 @@
           "id": 1966,
           "name": "LeBron James",
           "slot": 3,
-          "injury_status": "DAY_TO_DAY"
+          "injury_status": "OUT"
         },
         {
           "id": 6450,
@@ -340,13 +340,13 @@
           "id": 5142718,
           "name": "AJ Dybantsa",
           "slot": 11,
-          "injury_status": "DAY_TO_DAY"
+          "injury_status": "OUT"
         },
         {
           "id": 2991230,
           "name": "Fred VanVleet",
           "slot": 1,
-          "injury_status": "DAY_TO_DAY"
+          "injury_status": "OUT"
         },
         {
           "id": 4278067,
@@ -385,7 +385,7 @@
           "id": 1966,
           "name": "LeBron James",
           "slot": 3,
-          "injury_status": "DAY_TO_DAY"
+          "injury_status": "OUT"
         },
         {
           "id": 6450,
@@ -433,13 +433,13 @@
           "id": 5142718,
           "name": "AJ Dybantsa",
           "slot": 11,
-          "injury_status": "DAY_TO_DAY"
+          "injury_status": "OUT"
         },
         {
           "id": 2991230,
           "name": "Fred VanVleet",
           "slot": 1,
-          "injury_status": "DAY_TO_DAY"
+          "injury_status": "OUT"
         },
         {
           "id": 4278067,
@@ -478,7 +478,7 @@
           "id": 1966,
           "name": "LeBron James",
           "slot": 3,
-          "injury_status": "DAY_TO_DAY"
+          "injury_status": "OUT"
         },
         {
           "id": 6450,
@@ -526,13 +526,13 @@
           "id": 5142718,
           "name": "AJ Dybantsa",
           "slot": 11,
-          "injury_status": "DAY_TO_DAY"
+          "injury_status": "OUT"
         },
         {
           "id": 2991230,
           "name": "Fred VanVleet",
           "slot": 1,
-          "injury_status": "DAY_TO_DAY"
+          "injury_status": "OUT"
         },
         {
           "id": 4278067,
@@ -571,7 +571,7 @@
           "id": 1966,
           "name": "LeBron James",
           "slot": 3,
-          "injury_status": "DAY_TO_DAY"
+          "injury_status": "OUT"
         },
         {
           "id": 6450,
@@ -619,13 +619,13 @@
           "id": 5142718,
           "name": "AJ Dybantsa",
           "slot": 11,
-          "injury_status": "DAY_TO_DAY"
+          "injury_status": "OUT"
         },
         {
           "id": 2991230,
           "name": "Fred VanVleet",
           "slot": 1,
-          "injury_status": "DAY_TO_DAY"
+          "injury_status": "OUT"
         },
         {
           "id": 4278067,
@@ -657,15 +657,16 @@
     }
   ],
   "assumptions": {
-    "Dybantsa": "DTD ankle; Friday absence does not establish Saturday absence. Saturday return unresolved;75% provisional model.",
-    "VanVleet": "DTD rest Oct24 injury feed; exact Saturday status unconfirmed;50% provisional B2B availability.",
+    "Dybantsa": "Confirmed OUT Saturday ankle via general injury feed17:54Z; future return unresolved,75% provisional future model.",
+    "VanVleet": "Confirmed OUT Saturday knee per injury feed17:16Z; fantasy news describes planned B2B rest. Do not infer new long-term injury.",
     "Claxton": "OUT hamstring; current-day IR verified",
-    "LeBron": "Questionable Saturday back; provisional75% model, not reported probability.",
+    "LeBron": "Confirmed OUT Saturday back via general ESPN injury feed17:06Z; Sunday return not guaranteed.",
     "Curry": "Oct24 injury feed: says probably will not play Saturday; DTD rest, provisional25% availability today, not reported probability. No playing bench replacement."
   },
   "next_checks": [
-    "Today first game15:00 PDT; recheck before lock",
-    "Curry likely rests; LeBron questionable; Dybantsa ankle and VanVleet rest unresolved today",
-    "Use public ESPN injury feed in addition to fantasy news: fresher Curry report found there"
+    "2:15 PDT lineup-only check before15:00 earliest game; no overlap",
+    "Curry likely rests, await official designation",
+    "LeBron, Dybantsa, VanVleet confirmed OUT today; no healthy playing bench replacements",
+    "Recheck future return dates before next games"
   ]
 }

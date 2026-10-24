@@ -1,102 +1,9 @@
 {
-  "checked_at": "2026-10-24T04:05:54.382602+00:00",
+  "checked_at": "2026-10-24T15:07:31.482994+00:00",
   "league_id": 1779277586,
   "team_id": 3,
   "season_id": 2027,
   "lineups": [
-    {
-      "period": 4,
-      "date": "2026-10-23",
-      "earliest_game": "2026-10-23T20:00:00+00:00",
-      "roster": [
-        {
-          "id": 1966,
-          "name": "LeBron James",
-          "slot": 12,
-          "injury_status": "DAY_TO_DAY"
-        },
-        {
-          "id": 6450,
-          "name": "Kawhi Leonard",
-          "slot": 3,
-          "injury_status": "ACTIVE"
-        },
-        {
-          "id": 3202,
-          "name": "Kevin Durant",
-          "slot": 2,
-          "injury_status": "ACTIVE"
-        },
-        {
-          "id": 3975,
-          "name": "Stephen Curry",
-          "slot": 0,
-          "injury_status": "ACTIVE"
-        },
-        {
-          "id": 4396971,
-          "name": "Naz Reid",
-          "slot": 11,
-          "injury_status": "ACTIVE"
-        },
-        {
-          "id": 6606,
-          "name": "Damian Lillard",
-          "slot": 5,
-          "injury_status": "ACTIVE"
-        },
-        {
-          "id": 4433627,
-          "name": "Keyonte George",
-          "slot": 1,
-          "injury_status": "ACTIVE"
-        },
-        {
-          "id": 5041935,
-          "name": "Cameron Boozer",
-          "slot": 6,
-          "injury_status": "ACTIVE"
-        },
-        {
-          "id": 5142718,
-          "name": "AJ Dybantsa",
-          "slot": 12,
-          "injury_status": "DAY_TO_DAY"
-        },
-        {
-          "id": 2991230,
-          "name": "Fred VanVleet",
-          "slot": 11,
-          "injury_status": "ACTIVE"
-        },
-        {
-          "id": 4278067,
-          "name": "Nic Claxton",
-          "slot": 13,
-          "injury_status": "OUT"
-        },
-        {
-          "id": 3133628,
-          "name": "Myles Turner",
-          "slot": 4,
-          "injury_status": "ACTIVE"
-        },
-        {
-          "id": 3936299,
-          "name": "Jamal Murray",
-          "slot": 12,
-          "injury_status": "ACTIVE"
-        },
-        {
-          "id": 5254165,
-          "name": "Keaton Wagler",
-          "slot": 11,
-          "injury_status": "ACTIVE"
-        }
-      ],
-      "verified": true,
-      "estimated_points": 346.399676
-    },
     {
       "period": 5,
       "date": "2026-10-24",
@@ -124,7 +31,7 @@
           "id": 3975,
           "name": "Stephen Curry",
           "slot": 0,
-          "injury_status": "ACTIVE"
+          "injury_status": "DAY_TO_DAY"
         },
         {
           "id": 4396971,
@@ -160,7 +67,7 @@
           "id": 2991230,
           "name": "Fred VanVleet",
           "slot": 1,
-          "injury_status": "ACTIVE"
+          "injury_status": "DAY_TO_DAY"
         },
         {
           "id": 4278067,
@@ -188,7 +95,7 @@
         }
       ],
       "verified": true,
-      "estimated_points": 267.061394
+      "estimated_points": 234.777303
     },
     {
       "period": 6,
@@ -217,7 +124,7 @@
           "id": 3975,
           "name": "Stephen Curry",
           "slot": 5,
-          "injury_status": "ACTIVE"
+          "injury_status": "DAY_TO_DAY"
         },
         {
           "id": 4396971,
@@ -253,7 +160,7 @@
           "id": 2991230,
           "name": "Fred VanVleet",
           "slot": 1,
-          "injury_status": "ACTIVE"
+          "injury_status": "DAY_TO_DAY"
         },
         {
           "id": 4278067,
@@ -310,7 +217,7 @@
           "id": 3975,
           "name": "Stephen Curry",
           "slot": 5,
-          "injury_status": "ACTIVE"
+          "injury_status": "DAY_TO_DAY"
         },
         {
           "id": 4396971,
@@ -346,7 +253,7 @@
           "id": 2991230,
           "name": "Fred VanVleet",
           "slot": 1,
-          "injury_status": "ACTIVE"
+          "injury_status": "DAY_TO_DAY"
         },
         {
           "id": 4278067,
@@ -403,7 +310,7 @@
           "id": 3975,
           "name": "Stephen Curry",
           "slot": 5,
-          "injury_status": "ACTIVE"
+          "injury_status": "DAY_TO_DAY"
         },
         {
           "id": 4396971,
@@ -439,7 +346,7 @@
           "id": 2991230,
           "name": "Fred VanVleet",
           "slot": 1,
-          "injury_status": "ACTIVE"
+          "injury_status": "DAY_TO_DAY"
         },
         {
           "id": 4278067,
@@ -496,7 +403,7 @@
           "id": 3975,
           "name": "Stephen Curry",
           "slot": 5,
-          "injury_status": "ACTIVE"
+          "injury_status": "DAY_TO_DAY"
         },
         {
           "id": 4396971,
@@ -532,7 +439,7 @@
           "id": 2991230,
           "name": "Fred VanVleet",
           "slot": 1,
-          "injury_status": "ACTIVE"
+          "injury_status": "DAY_TO_DAY"
         },
         {
           "id": 4278067,
@@ -589,7 +496,7 @@
           "id": 3975,
           "name": "Stephen Curry",
           "slot": 5,
-          "injury_status": "ACTIVE"
+          "injury_status": "DAY_TO_DAY"
         },
         {
           "id": 4396971,
@@ -625,7 +532,7 @@
           "id": 2991230,
           "name": "Fred VanVleet",
           "slot": 1,
-          "injury_status": "ACTIVE"
+          "injury_status": "DAY_TO_DAY"
         },
         {
           "id": 4278067,
@@ -654,19 +561,111 @@
       ],
       "verified": true,
       "estimated_points": 72.948718
+    },
+    {
+      "period": 11,
+      "date": "2026-10-30",
+      "earliest_game": "2026-10-30T23:00:00+00:00",
+      "roster": [
+        {
+          "id": 1966,
+          "name": "LeBron James",
+          "slot": 3,
+          "injury_status": "DAY_TO_DAY"
+        },
+        {
+          "id": 6450,
+          "name": "Kawhi Leonard",
+          "slot": 2,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "id": 3202,
+          "name": "Kevin Durant",
+          "slot": 6,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "id": 3975,
+          "name": "Stephen Curry",
+          "slot": 5,
+          "injury_status": "DAY_TO_DAY"
+        },
+        {
+          "id": 4396971,
+          "name": "Naz Reid",
+          "slot": 11,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "id": 6606,
+          "name": "Damian Lillard",
+          "slot": 12,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "id": 4433627,
+          "name": "Keyonte George",
+          "slot": 12,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "id": 5041935,
+          "name": "Cameron Boozer",
+          "slot": 12,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "id": 5142718,
+          "name": "AJ Dybantsa",
+          "slot": 11,
+          "injury_status": "DAY_TO_DAY"
+        },
+        {
+          "id": 2991230,
+          "name": "Fred VanVleet",
+          "slot": 1,
+          "injury_status": "DAY_TO_DAY"
+        },
+        {
+          "id": 4278067,
+          "name": "Nic Claxton",
+          "slot": 13,
+          "injury_status": "OUT"
+        },
+        {
+          "id": 3133628,
+          "name": "Myles Turner",
+          "slot": 4,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "id": 3936299,
+          "name": "Jamal Murray",
+          "slot": 0,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "id": 5254165,
+          "name": "Keaton Wagler",
+          "slot": 11,
+          "injury_status": "ACTIVE"
+        }
+      ],
+      "verified": true,
+      "estimated_points": 319.377212
     }
   ],
   "assumptions": {
-    "Dybantsa": "Confirmed OUT Friday Oct23;0 expected points Friday. Coach still day-to-day, possible Saturday return;75% future availability remains provisional modeling only.",
-    "VanVleet": "One back-to-back leg rest; provisional 50% per leg until confirmed",
+    "Dybantsa": "DTD ankle; Friday absence does not establish Saturday absence. Saturday return unresolved;75% provisional model.",
+    "VanVleet": "DTD rest Oct24 injury feed; exact Saturday status unconfirmed;50% provisional B2B availability.",
     "Claxton": "OUT hamstring; current-day IR verified",
-    "LeBron": "Questionable Saturday Oct24 back soreness per Oct23 ESPN report; provisional75% availability model for Saturday, not reported probability. Retain active slot pending clearance; no healthy playing bench alternative."
+    "LeBron": "Questionable Saturday back; provisional75% model, not reported probability.",
+    "Curry": "Oct24 injury feed: says probably will not play Saturday; DTD rest, provisional25% availability today, not reported probability. No playing bench replacement."
   },
   "next_checks": [
-    "Locked starters preserved; remaining late starters verified",
-    "VanVleet ACTIVE but rest leg unspecified; recheck before Houston game",
-    "Dybantsa OUT today; Saturday return unresolved",
-    "LeBron questionable Saturday with back designation; recheck before game",
-    "No pending claims or offers; Edgecombe on team8"
+    "Today first game15:00 PDT; recheck before lock",
+    "Curry likely rests; LeBron questionable; Dybantsa ankle and VanVleet rest unresolved today",
+    "Use public ESPN injury feed in addition to fantasy news: fresher Curry report found there"
   ]
 }

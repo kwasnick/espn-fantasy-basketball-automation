@@ -182,3 +182,12 @@ confirmed, conservatively reserve two proposal slots against the rolling cap.
 A period-6 lineup write returned HTTP 200 but its first readback was stale.
 A later independent read matched the entire intended roster; no write retry
 was needed. Always resolve uncertain outcomes with reads before resubmitting.
+
+## Injury-feed cross-check
+
+Also read `https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries`.
+On October 24 morning, this public feed carried Curry's Saturday likely-rest
+report while the fantasy player-news endpoint still showed the October 22 game
+recap. Match athletes by displayName or player-card URL (the embedded athlete
+may omit a top-level id), and retain only concise findings, timestamps and source.
+Do not interpret an old Friday absence as a confirmed Saturday absence.

@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-24T18:57:43.540170+00:00",
+  "checked_at": "2026-10-24T21:56:24.465021+00:00",
   "league_id": 1779277586,
   "team_id": 3,
   "season_id": 2027,
@@ -31,7 +31,7 @@
           "id": 3975,
           "name": "Stephen Curry",
           "slot": 0,
-          "injury_status": "DAY_TO_DAY"
+          "injury_status": "OUT"
         },
         {
           "id": 4396971,
@@ -95,7 +95,7 @@
         }
       ],
       "verified": true,
-      "estimated_points": 161.513287
+      "estimated_points": 150.751923
     },
     {
       "period": 6,
@@ -124,7 +124,7 @@
           "id": 3975,
           "name": "Stephen Curry",
           "slot": 5,
-          "injury_status": "DAY_TO_DAY"
+          "injury_status": "OUT"
         },
         {
           "id": 4396971,
@@ -217,7 +217,7 @@
           "id": 3975,
           "name": "Stephen Curry",
           "slot": 5,
-          "injury_status": "DAY_TO_DAY"
+          "injury_status": "OUT"
         },
         {
           "id": 4396971,
@@ -310,7 +310,7 @@
           "id": 3975,
           "name": "Stephen Curry",
           "slot": 5,
-          "injury_status": "DAY_TO_DAY"
+          "injury_status": "OUT"
         },
         {
           "id": 4396971,
@@ -403,7 +403,7 @@
           "id": 3975,
           "name": "Stephen Curry",
           "slot": 5,
-          "injury_status": "DAY_TO_DAY"
+          "injury_status": "OUT"
         },
         {
           "id": 4396971,
@@ -496,7 +496,7 @@
           "id": 3975,
           "name": "Stephen Curry",
           "slot": 5,
-          "injury_status": "DAY_TO_DAY"
+          "injury_status": "OUT"
         },
         {
           "id": 4396971,
@@ -589,7 +589,7 @@
           "id": 3975,
           "name": "Stephen Curry",
           "slot": 5,
-          "injury_status": "DAY_TO_DAY"
+          "injury_status": "OUT"
         },
         {
           "id": 4396971,
@@ -661,12 +661,11 @@
     "VanVleet": "Confirmed OUT Saturday knee per injury feed17:16Z; fantasy news describes planned B2B rest. Do not infer new long-term injury.",
     "Claxton": "OUT hamstring; current-day IR verified",
     "LeBron": "Confirmed OUT Saturday back via general ESPN injury feed17:06Z; Sunday return not guaranteed.",
-    "Curry": "Oct24 injury feed: says probably will not play Saturday; DTD rest, provisional25% availability today, not reported probability. No playing bench replacement."
+    "Curry": "Confirmed OUT Saturday rest via general ESPN injury feed20:08Z. No playing bench replacement; no scoring improvement available."
   },
   "next_checks": [
-    "2:15 PDT lineup-only check before15:00 earliest game; no overlap",
-    "Curry likely rests, await official designation",
-    "LeBron, Dybantsa, VanVleet confirmed OUT today; no healthy playing bench replacements",
-    "Recheck future return dates before next games"
+    "Pregame lineup-only check completed at14:55 PDT; regular15:00 run should reconcile this coverage, no duplicate writes",
+    "Curry,LeBron,Dybantsa,VanVleet all OUT today; only Durant,Reid,Turner,Murray have available games and all active",
+    "Recheck return designations before next games; no roster transaction evaluated in lineup-only pass"
   ]
 }
